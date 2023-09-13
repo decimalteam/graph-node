@@ -25,8 +25,8 @@ docker run -it \
   -e postgres_user=graph-node \
   -e postgres_pass=oh-hello \
   -e postgres_db=graph-node \
-  -e ipfs=host.docker.internal:5001 \
-  -e ethereum=mainnet:http://localhost:8545/ \
+  -e ipfs=ipfs:5001 \
+  -e ethereum=decimal-testnet:https://testnet-val.decimalchain.com/web3/ \
   graphprotocol/graph-node:latest
 ```
 
